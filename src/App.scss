@@ -1,0 +1,90 @@
+$cyan: #37E2D5;
+$purple: #590696;
+$pink: #C70A80;
+$yellow: #FBCB0A;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: $yellow;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: $cyan;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: $purple;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+#review-box{
+    width: 600px;
+    height: 500px;
+    background-color: $pink;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#review-img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border-left: 10px solid $cyan;
+}
+
+#review-text{
+    margin-top: 50px;
+    height: 185px;
+}
+
+#name{
+    color: $yellow;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#job{
+    color: $cyan;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#bio{
+    color: white;
+    line-height: 25px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+button{
+    background-color: transparent;
+    color: $yellow;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: $purple;
+}
